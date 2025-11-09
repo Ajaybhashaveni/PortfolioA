@@ -19,6 +19,17 @@ const projects = [
     desc: 'Automated irrigation using sensors and cloud-based dashboards.',
     tech: ['IoT', 'Cloud']
   }
+  ,
+  {
+    title: 'Quasi-Elliptic Bandpass Frequency Selective Surface',
+    desc: 'Designed a quasi-elliptic bandpass Frequency Selective Surface based on coupled stubs-loaded ring resonators. Includes simulation, S-parameter analysis and board-level layout for microwave filtering applications.',
+    tech: ['RF', 'Microwave', 'EM Simulation']
+  },
+  {
+    title: 'PCB Detection (Deep Learning) & Smart Pesticide Sprinklers',
+    desc: 'Built a PCB component/defect detection pipeline using deep learning (Gmanet / Gmalnet variants) and integrated a smart pesticide sprinkler system that triggers based on detection outputs and environmental sensors.',
+    tech: ['Deep Learning', 'Computer Vision', 'Embedded', 'IoT']
+  }
 ]
 
 export default function Projects() {
@@ -47,6 +58,7 @@ export default function Projects() {
           <select value={tag} onChange={(e)=>setTag(e.target.value)} className="px-2 py-2 border rounded text-sm">
             {allTags.map(t => <option key={t} value={t}>{t}</option>)}
           </select>
+          <a href="#" onClick={(e)=>{e.preventDefault(); window.open('https://leetcode.com/u/BAjay_1012/','_blank')}} className="px-3 py-1 text-sm border rounded bg-slate-100 dark:bg-slate-700">LeetCode</a>
         </div>
       </div>
       <div className="mt-4 grid gap-4">

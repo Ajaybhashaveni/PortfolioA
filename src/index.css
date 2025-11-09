@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #ffffff;
+}
+
+/* smooth scroll for in-page nav */
+html {
+  scroll-behavior: smooth;
+}
+
+/* small utility for circular image */
+.avatar-circle {
+  border-radius: 9999px;
+  box-shadow: 0 8px 24px rgba(2,6,23,0.12);
+}
+
+/* animated avatar: subtle zoom-in on load and hover scale */
+@keyframes avatar-zoom {
+  from { transform: scale(0.96); opacity: 0.9 }
+  to { transform: scale(1); opacity: 1 }
+}
+.animate-zoom {
+  animation: avatar-zoom 450ms ease-out both;
+}
+.avatar-circle img {
+  transition: transform 220ms ease;
+}
+.avatar-circle:hover img {
+  transform: scale(1.06);
+}

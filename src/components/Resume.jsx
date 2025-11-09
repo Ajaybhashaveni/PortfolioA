@@ -73,6 +73,16 @@ export default function Resume(){
               <li><strong>IoT Water Irrigation</strong> — Sensor-driven automated irrigation with cloud dashboard.</li>
             </ul>
           </section>
+
+          <section className="section">
+            <h2 className="font-semibold">Publications & Manuscripts</h2>
+            <ul className="muted text-sm list-disc ml-5">
+              <li>
+                <strong>Pre-Amplifier Based Nanoscale Cross Coupled Dynamic Voltage Comparator for Future Analog to Digital Converters: A Reliability Study</strong>
+                <div className="text-sm mt-1">Status: <em>Manuscript / Unpublished</em>. (If you have a PDF or an abstract you'd like displayed, I can embed it here or link it.)</div>
+              </li>
+            </ul>
+          </section>
         </div>
 
         <div className="ml-6 flex flex-col gap-3">

@@ -5,9 +5,9 @@ import RepoCarousel from './RepoCarousel'
 
 const projects = [
   {
-    title: 'Smart Helmet for Alcohol Detection and Speed Automation',
-    desc: 'Designed a user-friendly system that tracks speed, location, and safety; includes an auto-control feature if the driver loses control.',
-    tech: ['C', 'DBMS']
+    title: 'Smart Helmet for Monitoring Vehicle',
+    desc: 'Developed a helmet-mounted system to monitor vehicle telemetry, rider status and safety parameters (speed, location, alcohol detection) and trigger alerts or automated responses when risk conditions are detected.',
+    tech: ['Embedded', 'C', 'IoT']
   },
   {
     title: 'House Price Prediction',

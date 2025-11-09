@@ -68,7 +68,7 @@ export default function Resume(){
           <section className="section">
             <h2 className="font-semibold">Projects (selected)</h2>
             <ul className="muted text-sm list-disc ml-5">
-              <li><strong>Smart Helmet</strong> — Alcohol detection and speed automation system integrating sensors and control logic.</li>
+              <li><strong>Smart Helmet for Monitoring Vehicle</strong> — Helmet-mounted system that monitors vehicle telemetry, rider status and safety (speed, location, alcohol detection) and triggers alerts or automated responses when risk is detected.</li>
               <li><strong>House Price Prediction</strong> — ML model using regression and decision trees.</li>
               <li><strong>IoT Water Irrigation</strong> — Sensor-driven automated irrigation with cloud dashboard.</li>
             </ul>
